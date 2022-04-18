@@ -1,0 +1,11 @@
+So sánh kiểu xâu và tệp:
+- Kiểu xâu: Trong Python, xâu (string, từ khóa là str) là một dãy các kí tự Unicode, dùng để biểu thị các kí tự, các từ, các câu,...
+- Kiểu dữ liệu tệp: + Tệp (file) (hay còn gọi là tập tin). File là tập hợp của các thông tin được đặt tên và lưu trữ trên bộ nhớ máy tính như đĩa cứng, đĩa mềm, CD, DVD
+                    + Kí tự lưu trong tệp không chỉ theo mã ASCII mà còn ghi theo mã Unicode
+                    + Khi muốn đọc hoặc ghi file, chúng ta cần phải mở file trước. Khi hoàn thành, file cần phải được đóng lại để tài nguyên gắn với file được giải phóng.
+
+Ví dụ:
+- Kiểu xâu: print("Xin chào")
+
+- Kiểu tệp : with open("xinchao.txt", "w") as f:
+                f.write("Xin chao") #in xâu "Xin chao" vào file xinchao.txt
