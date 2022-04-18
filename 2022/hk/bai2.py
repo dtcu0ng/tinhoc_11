@@ -6,7 +6,7 @@ if a > 0 and b > 0 and c > 0 and a + b > c and b + c > a:
     chuvi = a + b + c
     p = chuvi / 2
     dientich = math.sqrt(p*(p-a)*(p-b)*(p-c))
-    with open("bai1.txt", "w") as f:
+    with open("bai2.txt", "w") as f:
         f.write("a= " + str(a) + "\n")
         f.write("b= " + str(b) + "\n")
         f.write("c= " + str(c) + "\n")
