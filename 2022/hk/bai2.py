@@ -1,3 +1,4 @@
+print("Đinh Tiến Cường - 11D0")
 import math
 a = int(input("Nhập a: "))
 b = int(input("Nhập b: "))
