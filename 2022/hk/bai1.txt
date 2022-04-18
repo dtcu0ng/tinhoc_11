@@ -5,7 +5,7 @@ So sánh kiểu xâu và tệp:
                     + Khi muốn đọc hoặc ghi file, chúng ta cần phải mở file trước. Khi hoàn thành, file cần phải được đóng lại để tài nguyên gắn với file được giải phóng.
 
 Ví dụ:
-- Kiểu xâu: print("Xin chào")
+- Kiểu xâu: print("Xin chào") # in xâu Xin chào ra màn hình
 
 - Kiểu tệp : with open("xinchao.txt", "w") as f:
                 f.write("Xin chao") #in xâu "Xin chao" vào file xinchao.txt
